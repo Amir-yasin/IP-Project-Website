@@ -1,0 +1,58 @@
+body{
+    background-color: #F3F2C9;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navContainer{
+    background: #003638;
+}
+
+.mainTitle{
+    font-weight: bold;
+    font-size: larger;
+    color: #F3F2C9;
+}
+.nav-link{
+    color: #F3F2C9;
+}
+.heroeContainer{
+    background-color: #F3F2C9;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.heroeTagline{
+    color: #003638;
+}
+.heroeDescription{
+    color: #055052;
+}
+.btnContact{
+    color: #F3F2C9;
+    background-color:#003638 ;
+}
+.btnContact:hover{
+    color: #F3F2C9;
+    background-color:#055052 ;
+}
+#featured{
+    background-color: #F3F2C9;
+}
+.featuresTxt{
+    color: #003638;
+    margin-bottom: 2rem;
+}
+.featureCardsContainer{
+   background-color: #055052;
+}
+.featureCard{
+background-color:#055052 ;
+color: #F3F2C9;
+}
+.footerContainer{
+    background: #003638;
+}
+.cprtTxt{
+    color: #F3F2C9;
+   
+}
