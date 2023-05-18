@@ -2,6 +2,7 @@ body{
     background-color: #F3F2C9;
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
 }
 
 .navContainer{
@@ -51,8 +52,65 @@ color: #F3F2C9;
 }
 .footerContainer{
     background: #003638;
+    margin-top: 2rem;
 }
 .cprtTxt{
     color: #F3F2C9;
    
+}
+
+
+
+/* blog page */
+
+.page-title{
+    color: #055052;
+    margin-left: 20%;
+    margin-top: 2rem;
+}
+.blogs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.blog-post-container{
+    width: 360px;
+    padding: 2% 2%;
+    margin: 0.3rem;
+    margin-top: 2rem;
+    color: #003638;
+    background-color: #fff;
+    border: #003638 solid;
+    border-radius: 9px 9px 9px 9px;
+    transform: 1.5s;
+    
+ 
+}
+.blog-post-container:hover{
+    box-shadow: 4px 15px 24px 0px rgba(0,54,56,1);
+}
+
+.date-and-author{
+    color: #055052;
+    text-decoration: underline;
+}
+.btn-readmore
+{
+    background-color: #003638;
+    color: #F3F2C9;
+}
+.btn-readmore:hover{
+    background-color: #055052;
+}
+
+/* about page */
+
+.profile-pic{
+    border-radius: 142px 149px 200px 138px;
+    width: 45%;
+    margin: 10% 10% 10% 45%;   
 }
