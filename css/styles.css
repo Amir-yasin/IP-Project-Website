@@ -57,3 +57,30 @@ color: #F3F2C9;
     color: #F3F2C9;
    
 }
+
+
+
+/* blog page */
+
+.page-title{
+    color: #055052;
+    margin-left: 20%;
+    margin-top: 2rem;
+}
+
+.blog-post-container{
+    padding: 2% 5%;
+    color: #003638;
+}
+.date-and-author{
+    color: #055052;
+    text-decoration: underline;
+}
+.btn-readmore
+{
+    background-color: #003638;
+    color: #F3F2C9;
+}
+.btn-readmore:hover{
+    background-color: #055052;
+}
