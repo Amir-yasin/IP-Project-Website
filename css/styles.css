@@ -1,5 +1,5 @@
 body{
-    background-color: #F3F2C9;
+    background-color: #fff;
     margin: 0%;
     padding: 0%;
     overflow-x: hidden;
@@ -18,7 +18,7 @@ body{
     color: #F3F2C9;
 }
 .heroeContainer{
-    background-color: #F3F2C9;
+    background-color: #fff;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -37,7 +37,7 @@ body{
     background-color:#055052 ;
 }
 #featured{
-    background-color: #F3F2C9;
+    background-color: #fff;
 }
 .featuresTxt{
     color: #003638;
@@ -49,6 +49,9 @@ body{
 .featureCard{
 background-color:#055052 ;
 color: #F3F2C9;
+}
+.footerContainer-home{
+    background: #003638;
 }
 .footerContainer{
     background: #003638;
@@ -109,6 +112,12 @@ color: #F3F2C9;
 
 /* about page */
 
+.about-description{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+}
 .mission-vision-values{
     background-color: #fff;
     color: #003638;
@@ -122,3 +131,19 @@ color: #F3F2C9;
 .about-img{
     width: 100%;
 }
+
+
+
+
+
+
+
+
+@media (max-width: 768px)
+{
+    .vision-container{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+}    
