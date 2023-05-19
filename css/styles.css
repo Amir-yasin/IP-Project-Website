@@ -109,10 +109,15 @@ color: #F3F2C9;
 
 /* about page */
 
+.mission-vision-values{
+    background-color: #fff;
+    color: #003638;
+}
 .mission-container{
     padding-left: 7%;
     padding-right: 7%;
     margin-top: 2rem;
+    
 }
 .about-img{
     width: 100%;
