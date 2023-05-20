@@ -1,5 +1,5 @@
 body{
-    background-color: #F3F2C9;
+    background-color: #fff;
     margin: 0%;
     padding: 0%;
     overflow-x: hidden;
@@ -18,7 +18,7 @@ body{
     color: #F3F2C9;
 }
 .heroeContainer{
-    background-color: #F3F2C9;
+    background-color: #fff;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -37,7 +37,7 @@ body{
     background-color:#055052 ;
 }
 #featured{
-    background-color: #F3F2C9;
+    background-color: #fff;
 }
 .featuresTxt{
     color: #003638;
@@ -49,6 +49,9 @@ body{
 .featureCard{
 background-color:#055052 ;
 color: #F3F2C9;
+}
+.footerContainer-home{
+    background: #003638;
 }
 .footerContainer{
     background: #003638;
@@ -109,8 +112,127 @@ color: #F3F2C9;
 
 /* about page */
 
-.profile-pic{
-    border-radius: 142px 149px 200px 138px;
-    width: 45%;
-    margin: 10% 10% 10% 45%;   
+.about-description{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
 }
+.mission-vision-values{
+    background-color: #fff;
+    color: #003638;
+}
+.mission-container{
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 2rem;
+    
+}
+.about-img{
+    width: 100%;
+}
+.our-team-title
+{
+    margin-left: 40%;
+}
+.team-container{
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 300px;
+    height: 450px;
+    margin-top: 2rem;
+    color: #F3F2C9;
+    background-color: #055052;
+    
+
+    box-shadow: 19px 0px 99px 24px rgba(0,54,56,1) inset;
+    
+}
+.card:hover
+{
+    transform: scale(1.1) ;
+    transition: 1000ms;
+}
+
+.pp{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2rem;
+    border-radius: 200px 200px 200px 200px;
+}
+
+.card-content{
+    padding: 2rem 1rem;
+    margin: auto;
+
+}
+
+.social-link-list{
+    display: inline;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+.social-link{
+    color: #F3F2C9;
+    font-size: 2rem;
+}
+
+
+
+
+/* services page */
+.services-title{
+    color: #003638;
+    margin-left: 35%;
+    margin-top: 3rem;
+}
+.service-container{
+    padding-left: 7%;
+    padding-right: 7%;
+    color: #003638;
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.75);
+
+}
+.service-image{
+    margin-top: 8rem;
+    height: 350px;
+    background-size: cover;
+}
+#web-developement{
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/website-developement2.jpg");
+}
+#cms{
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/cms.png");
+}
+#e-commerce{
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/ecommerce2.jpeg");
+}
+#mobile-app{
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/mobileapp");
+}
+#SEO{
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/website-developement2.jpg");
+}
+#web-maintenance{
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/website-developement2.jpg");
+}
+
+
+
+
+@media (max-width: 768px)
+{
+    .vision-container{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+}    
