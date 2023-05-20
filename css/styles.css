@@ -195,15 +195,28 @@ color: #F3F2C9;
 
 }
 .service-image{
-    margin-top: 3rem;
+    margin-top: 13rem;
     height: 350px;
     background-size: cover;
 }
 #web-developement{
     background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/website-developement2.jpg");
-
 }
-
+#cms{
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/cms.png");
+}
+#e-commerce{
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/ecommerce2.jpeg");
+}
+#mobile-app{
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/mobileapp");
+}
+#SEO{
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/website-developement2.jpg");
+}
+#web-maintenance{
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/website-developement2.jpg");
+}
 
 
 
