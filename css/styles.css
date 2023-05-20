@@ -143,8 +143,19 @@ color: #F3F2C9;
 .card{
     width: 300px;
     height: 450px;
+    margin-top: 2rem;
     color: #F3F2C9;
     background-color: #055052;
+    
+
+    box-shadow: 19px 0px 99px 24px rgba(0,54,56,1) inset;
+    
+}
+.card:hover
+{
+    transform: scale(1.1) ;
+    
+    transition: 1000ms;
 }
 .pp-container{
     
