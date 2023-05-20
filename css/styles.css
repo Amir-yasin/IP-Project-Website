@@ -189,6 +189,11 @@ color: #F3F2C9;
 
 
 /* services page */
+.services-title{
+    color: #003638;
+    margin-left: 35%;
+    margin-top: 3rem;
+}
 .service-container{
     padding-left: 7%;
     padding-right: 7%;
