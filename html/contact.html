@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact page</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>home page</title>
+    
 </head>
-<body>
-    <div class="background-img">
-        <div class="navbar">
-            <h1 class="logo">ABK Web Developers</h1>
-            <ul>
-                <li><a href="index.html">HOME</a></li> 
-                <li><a href="about.html">ABOUT</a></li> 
-                <li><a href="services.html">SERVICES</a></li> 
-                <li><a href="portfolio.html">PORTFOLIO</a></li> 
-                <li><a href="blog.html">BLOG </a></li> 
-                <li><a href="contact.html">CONTACT </a></li> 
-                <li><a href="faq.html">FAQ </a></li> 
-        
-            </ul>
-        </div>
+<body >
+  <!-- nav bar -->
+    <div class="navContainer">
+        <header class="d-flex flex-wrap justify-content-center py-3  border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4 mainTitle">ABK technologies</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+            <li class="nav-item"><a href="#faq" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link">Blogs</a></li>
+          </ul>
+        </header>
+      </div>
        <div class="contact">
         <h1 >LET'S CREATE YOUR DREAM WEBSITE TOGETHER.</h1>
         <h2>CONTACT US</h2>
@@ -39,12 +45,12 @@
                 <td>
                     <h2>Schedule a meeting.</h2>
                     <h3>To discuss your website development needs in more detail, you can schedule a meeting with us by filling the form. We're available to meet in person or via video conference.</h3>
-                    <button class="zoom-button" style="width:fit-content"; ><a style="color: #F9D342; text-decoration:none"href="appointment.html">Schedule an appointment</a> </button>  
+                    <button class="btn" style="width:fit-content"; ><a style="color: #F9D342; text-decoration:none"href="appointment.html">Schedule an appointment</a> </button>  
                 </td>
                 <td>
                     <h2>Call us now.</h2>
                     <h3>If you prefer to speak directly over the phone, you can call us to discuss your needs. We're available during business hours and will be happy to answer any questions.</h3>
-                     <button class="zoom-button" style="width:fit-content"; ><a style="color: #F9D342; text-decoration:none" href="tel:0912345678">Call Now </a> </button>  
+                     <button class="btn" style="width:fit-content"; ><a style="color: #F9D342; text-decoration:none" href="tel:0912345678">Call Now </a> </button>  
 
 
                 </td>
@@ -64,6 +70,20 @@
             </tr>
         </table>
        </div>
+
+
+      <!-- footer section -->
+      <footer class="py-3  footerContainer">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">FAQs</a></li>
+          <li class="nav-item"><a href="blog.html" class="nav-link">Blogs</a></li>
+        </ul>
+        <p class="text-center  cprtTxt">© 2023 ABK, Inc</p>
+      </footer>
 
 </body>
 </html>
