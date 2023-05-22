@@ -95,6 +95,7 @@ color: #F3F2C9;
 }
 .blog-post-container:hover{
     box-shadow: 4px 15px 24px 0px rgba(0,54,56,1);
+    transition: 500ms;
 }
 
 .date-and-author{
@@ -203,7 +204,7 @@ color: #F3F2C9;
 }
 .service-image{
     margin-top: 8rem;
-    height: 350px;
+    height: 450px;
     background-size: cover;
 }
 #web-developement{
@@ -211,21 +212,48 @@ color: #F3F2C9;
 }
 #cms{
     background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/cms.png");
+    height: 600px;
 }
 #e-commerce{
-    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/ecommerce2.jpeg");
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/ecommmerce.png");
 }
 #mobile-app{
     background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/mobileapp");
+    height: 650px;
 }
 #SEO{
-    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/website-developement2.jpg");
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/seo2.webp");
 }
 #web-maintenance{
-    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/website-developement2.jpg");
+    background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/web-maintenance.jpg");
+    height: 750px;
 }
 
 
+/* read more page */
+.read-container{
+    padding-left: 7%;
+    padding-right: 7%;
+    color: #055052;
+}
+
+
+@media (max-width: 920px)
+{
+    .service-image{
+        margin-top: 6rem;
+        height: 400px;
+    }
+    #cms{
+        height: 400px;
+    }
+    #mobile-app{
+        height: 400px;
+    }
+    #web-maintenance{
+        height: 550px;
+    }
+}
 
 
 @media (max-width: 768px)
@@ -235,4 +263,52 @@ color: #F3F2C9;
         flex-direction: row-reverse;
         flex-wrap: wrap-reverse;
     }
+    .service-image{
+        margin-top: 6rem;
+        height: 300px;
+    }
+    #cms{
+        height: 300px;
+    }
+    #mobile-app{
+        height: 300px;
+    }
+    #web-maintenance{
+        height: 450px;
+    }
+
 }    
+
+@media (max-width: 620px)
+{
+    .service-image{
+        margin-top: 4rem;
+        height: 230px;
+    }
+    #cms{
+        height: 230px;
+    }
+    #mobile-app{
+        height: 230px;
+    }
+    #web-maintenance{
+        height: 300px;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .service-image{
+        margin-top: 4rem;
+        height: 180px;
+    }
+    #cms{
+        height: 180px;
+    }
+    #mobile-app{
+        height: 180px;
+    }
+    #web-maintenance{
+        height: 250px;
+    }
+}
