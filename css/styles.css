@@ -95,6 +95,7 @@ color: #F3F2C9;
 }
 .blog-post-container:hover{
     box-shadow: 4px 15px 24px 0px rgba(0,54,56,1);
+    transition: 500ms;
 }
 
 .date-and-author{
@@ -226,6 +227,14 @@ color: #F3F2C9;
 #web-maintenance{
     background-image: linear-gradient(0deg,#ffffff 5%, #ffffff00 55%),url("/images/web-maintenance.jpg");
     height: 750px;
+}
+
+
+/* read more page */
+.read-container{
+    padding-left: 7%;
+    padding-right: 7%;
+    color: #055052;
 }
 
 
