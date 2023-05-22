@@ -36,9 +36,18 @@ body{
 
 .appointment{
     width: 50%;
-    margin-left: 20%;
+    margin-left: 25%;
+    box-shadow: 4px 15px 24px 0px rgba(0,54,56,0.2);
+    padding: 3%;
+    border-radius: 10px;
 
 }
+
+
+
+/* contact */
+
+
 .btnContact{
     color: #F3F2C9;
     background-color:#003638 ;
@@ -47,27 +56,31 @@ body{
     color: #F3F2C9;
     background-color:#055052 ;
 }
-
-
-/* services */
-
-
-.services-headline{
-    color: #055052;
-    margin-left: 10%;
+.anchor-btn{
+    color: #F3F2C9;
+    text-decoration: none;
 }
-.services-img{
-    mix-blend-mode:darken;
+.contact-cards{
+    padding: 2%;
+
 }
-.services-card-container{
-    margin: 3% 5% ;
-    padding: 3%;
-    color: #003638;
-    background-color: #fff;
-    border: #003638 solid;
-    border-radius: 9px;
-} 
-.services-card{
-    color:#003638 ;
+.socials-contact{
+    text-align: center;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius:90px;
+    color: #F3F2C9;
+    background-color: #003638;
+    margin-right: 15px;    
+}
+.fa:hover {
+    opacity: 0.7;
 }
 
